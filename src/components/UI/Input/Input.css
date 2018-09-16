@@ -1,0 +1,30 @@
+.input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.label{
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.inputElement{
+    outline: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    font: inherit;
+    width: 95%;
+    padding: 10px 6px;
+}
+
+.inputElement:focus{
+    outline: none;
+    background-color: #ccc;
+}
+
+.inValid{
+    border:1px solid red;
+    background-color: #DFA49A;
+}
